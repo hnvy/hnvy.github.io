@@ -34,3 +34,9 @@ code {
 img {
 	mac-width: 500px;
 }
+
+/* Makes the link change colour when the mouse hovers over it */
+a:hover {
+  color: black;
+  background-color: pink;
+}
