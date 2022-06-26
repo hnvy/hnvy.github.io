@@ -6,5 +6,3 @@ relative_links:
   
 include:
   - README.md
-
-theme: my-own-theme-which-does-not-exist
