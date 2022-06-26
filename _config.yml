@@ -4,4 +4,4 @@ relative_links:
   enabled: true
   collections: true
 
-theme: my-own-theme-which-does-not-exist
+theme: jekyll-theme-hacker
