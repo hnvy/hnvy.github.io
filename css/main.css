@@ -1,29 +1,22 @@
-/* Styling for the title */
-title {
-	text-align: center;
-	margin-bottom: .2em;
-}
-
-
-/* Overall stlying */
+/* Overall */
 html {
 	max-width: 30em;
 	margin: auto;
 	background-color: #000000;
 	color: #FFD042;
 	font-size: 20px;
-	font-family: "Consolas";
+	font-family: "Courier";
 }
 
 
-/* Styling for headings */
+/* Headings */
 h1,h2,h3,h4,h5,h6 {
 	text-shadow: 2px 2px 8px #f8eabe;
 	text-decoration: underline;
 }
 
 
-/* Styling for code blocks */
+/* Code blocks */
 code {
 	font-family: "Lucida Console";
 	color: #8CD0D3;
