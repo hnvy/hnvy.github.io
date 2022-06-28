@@ -2,29 +2,36 @@
 html {
 	max-width: 45em;
 	margin: auto;
-	background-color: #000000;
-	color: #FFD042;
+	background-color: #111111;
+	color: #FFEDB8;
 	font-size: 20px;
-	font-family: "Courier";
+	font-family: "Lucida Console";
+        overflow-wrap: break-word;
 }
 
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
-	text-shadow: 2px 2px 8px #f8eabe;
+	text-shadow: 2px 2px 8px #F1FA8C;
 	text-decoration: underline;
 }
 
 
 /* Code blocks */
 code {
-	font-family: "Lucida Console";
+	font-family: "Courier";
 	color: #8CD0D3;
+}
+
+
+/* Link colour */
+a {
+  color: #FF79C6;
 }
 
 
 /* Makes the link change colour when the mouse hovers over it */
 a:hover {
-	color: black;
-	background-color: pink;
+  color: #111111;
+  background-color: #FFEDB8;
 }
