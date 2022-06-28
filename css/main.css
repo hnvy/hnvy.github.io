@@ -1,12 +1,12 @@
 /* Overall */
 html {
-	max-width: 45em;
-	margin: auto;
 	background-color: #111111;
 	color: #FFEDB8;
-	font-size: 20px;
 	font-family: "Lucida Console";
+	font-size: 20px;
         overflow-wrap: break-word;
+	max-width: 45em;
+	margin: auto;
 }
 
 
@@ -19,20 +19,20 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Code blocks */
 code {
-	font-family: "Courier";
 	color: #8CD0D3;
+	font-family: "Courier";
 	font-weight: bold;
 }
 
 
 /* Link colour */
 a {
-  color: #FF79C6;
+	color: #FF79C6;
 }
 
 
 /* Makes the link change colour when the mouse hovers over it */
 a:hover {
-  color: #111111;
-  background-color: #FFEDB8;
+	background-color: #FFEDB8;
+	color: #111111;
 }
