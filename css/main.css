@@ -1,6 +1,6 @@
 /* Overall */
 html {
-	background-color: #111111;
+	background-color: #23242F;
 	color: #FFEDB8;
 	font-family: "Lucida Console";
 	font-size: 20px;
@@ -27,12 +27,12 @@ code {
 
 /* Link colour */
 a {
-	color: #FF79C6;
+	color: #FF8FCE;
 }
 
 
 /* Makes the link change colour when the mouse hovers over it */
 a:hover {
-	background-color: #FFEDB8;
-	color: #111111;
+	background-color: #8F0051;
+	color: #FFEDB8;
 }
