@@ -12,7 +12,8 @@ html {
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
-	text-shadow: 2px 2px 20px #FCFCFD;
+	color: #CC9B1E
+	text-shadow: 2px 2px 20px #F7E6BA;
 	text-decoration: underline;
 }
 
@@ -35,4 +36,11 @@ a {
 a:hover {
 	background-color: #FFB8E0;
 	color: #0F0F2F;
+}
+
+
+/* Images */
+img {
+	width: 75%;
+	margin: auto;
 }
