@@ -1,7 +1,7 @@
 /* Overall */
 html {
-	background-color: #23242F;
-	color: #FFEDB8;
+	background-color: #171645;
+	color: #D3CDDF;
 	font-family: "Courier New";
 	font-size: 20px;
         overflow-wrap: break-word;
@@ -27,12 +27,12 @@ code {
 
 /* Link colour */
 a {
-	color: #FF8FCE;
+	color: #FFB8E0;
 }
 
 
 /* Makes the link change colour when the mouse hovers over it */
 a:hover {
-	background-color: #8F0051;
-	color: #FFEDB8;
+	background-color: #FFB8E0;
+	color: #D3CDDF;
 }
