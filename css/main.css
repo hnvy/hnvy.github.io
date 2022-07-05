@@ -1,6 +1,6 @@
 /* Overall */
 html {
-	background-color: #171645;
+	background-color: #0F0F2F;
 	color: #D3CDDF;
 	font-family: "Courier New";
 	font-size: 20px;
@@ -25,14 +25,14 @@ code {
 }
 
 
-/* Link colour */
+/* Links colour */
 a {
 	color: #FFB8E0;
 }
 
 
-/* Makes the link change colour when the mouse hovers over it */
+/* Makes links change colour when the mouse hovers over */
 a:hover {
 	background-color: #FFB8E0;
-	color: #D3CDDF;
+	color: #0F0F2F;
 }
