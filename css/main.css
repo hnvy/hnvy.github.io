@@ -1,44 +1,55 @@
-/* Overall */
-html {
-	background-color: #010104;
-	color: #D3CDDF;
+/* HTML and body */
+html, body {
+	background-color: #0C0D0F;
 	font-family: "Courier New";
 	font-size: 15px;
-        overflow-wrap: break-word;
 	max-width: 45em;
 	margin: auto;
+	overflow-wrap: break-word;
 }
 
+/* Body */
+body {
+	background-color: #282828;
+	color: #FEF4DC;
+	border-style: solid;
+	border-color: #D3869B;
+	/* border-width: 10px; */
+	padding: 10px;
+}
 
-/* Headings */
-h1,h2,h3,h4,h5,h6 {
-	color: #CC9B1E;
-	text-shadow: 2px 2px 20px #F7E6BA;
+/* H1 headings */
+h1 {
+	color: #B8BB26;
+	text-shadow: 2px 2px 20px #FBFD85;
 	text-decoration: underline;
 }
 
+/* Rest of headings */
+h2,h3,h4,h5,h6 {
+	color: #A9C1B8;
+	text-shadow: 2px 2px 20px #BADBCE;
+	text-decoration: underline;
+}
 
 /* Code blocks */
 code {
-	color: #8CD0D3;
+	color: #1EFF00;
 	font-family: "Courier";
 	font-weight: bold;
 	overflow-wrap: break-word;
 }
 
-
 /* Links colour */
 a {
-	color: #FFB8E0;
+	color: #61AFEF;
 }
-
 
 /* Makes links change colour when the mouse hovers over */
 a:hover {
-	background-color: #FFB8E0;
+	background-color: #61AFEF;
 	color: #0F0F2F;
 }
-
 
 /* Images */
 img {
