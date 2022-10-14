@@ -1,0 +1,34 @@
+# This is taken from System Crafters: https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/
+
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Emacs
+        run: sudo apt install emacs-nox --yes
+
+      - name: Change permission of script.sh
+        run: chmod +x script.sh
+
+      - name: Build the site
+        run: ./script.sh
+        
+      - name: List files in current directory
+        run: ls -al
+
+      - name: Publish generated content to GitHub Pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          commit-message: Update ${{ github.sha }}
+          folder: public
