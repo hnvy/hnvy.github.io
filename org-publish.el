@@ -32,6 +32,7 @@
       (list
        (list "hnvy"
              :recursive t
+             :with-properties t
              :base-directory "./src"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
