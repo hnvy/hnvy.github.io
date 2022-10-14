@@ -1,0 +1,46 @@
+#+BEGIN_EXPORT html
+<pre>
+<code>> ./index.html</code>
+</pre>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<p>
+<a href="html/about.html">About</a> - <a href="html/archive.html">Archive</a> - <a href="rss.xml">RSS feed</a>
+</p>
+#+END_EXPORT
+
+@@html:<p><a href="https://github.com/hnvy/hnvy.github.io/edit/main/index.html">ESotP</a></p>@@
+
+@@html:<hr>@@
+
+* hnvy.github.io
+:PROPERTIES:
+:CUSTOM_ID: hnvy
+:END:
+This site is for me to document my thoughts, ideas, and progress. It is composed of nothing but HTML and simple CSS. No Javascript, no analytics, no cookies, no advertisement, no nothing. Just text and, sometimes, pictures. Think of it as a personal Wiki page of a young learner rather than a blog...
+
+* Edit Something on this Page (ESoTP)
+:PROPERTIES:
+:CUSTOM_ID: esotp
+:END:
+
+This website exists solely to demonstrate that being a novice is perfectly OK, and that novices make mistakes (lots of them). Every page on this site will have a hyperlink, at the top, to allow you to Edit Something on this Page (ESoTP). This is a call to action for you to identify any errors (any errors) in my work, fix them, and send pull requests.
+
+* Subdomains
+:PROPERTIES:
+:CUSTOM_ID: subdomains
+:END:
+- [[https://hnvy.github.io/blog-1/][blog-1]]
+
+#+BEGIN_EXPORT html
+<p>
+<hr style="width:75%;">
+</p>
+
+<footer style="font-size: 0.75em; font-style: italic; text-align: center; padding: 1em 20em 0em 20em;">
+<p>Unless otherwise noted, every original piece of writing/artwork on <a href="https://hnvy.github.io/">this site</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, and all code snippets are licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3+</a>.</p>
+
+<p>Please note that the content on this site is NOT intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek professional medical attention. My notes are NOT intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice! In fact, NONE of this site's information should be taken as advice, because the content on this site may NOT be applicable to you.</p>
+</footer>
+#+END_EXPORT
