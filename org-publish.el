@@ -32,14 +32,16 @@
       (list
        (list "hnvy"
              :recursive t
-             :with-properties t
              :base-directory "./src"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
+             :with-creator t
+             :with-properties t
              :with-author nil
              :with-toc nil
              :section-numbers nil
-             :time-stamp-file nil)))
+             :time-stamp-file nil
+             :timestamp t)))
 
 (setq org-publish-timestamp-directory "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/")
 
