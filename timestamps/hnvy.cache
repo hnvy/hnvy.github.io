@@ -1,0 +1,7 @@
+(setq org-publish-cache (make-hash-table :test 'equal :weakness nil :size 100))
+(puthash ":project:" "hnvy" org-publish-cache)
+(puthash ":cache-file:" "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/hnvy.cache" org-publish-cache)
+(puthash "/home/runner/work/hnvy.github.io/hnvy.github.io/src/index.org" '(:crossrefs nil :index nil) org-publish-cache)
+(puthash "X1e9bdb52abab836c5deb93e2fcaea60ae90d92fd" '(25418 30348 287642 622000) org-publish-cache)
+(puthash "/home/runner/work/hnvy.github.io/hnvy.github.io/src/archive.org" '(:crossrefs nil :index nil) org-publish-cache)
+(puthash "Xcfe2e168eda1ebf79d2719811184ef5607f1ee4f" '(25418 30348 287642 622000) org-publish-cache)
