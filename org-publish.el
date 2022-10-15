@@ -20,7 +20,7 @@
 ;; Load the publishing system
 (require 'ox-publish)
 
-(setq org-publish-timestamp-directory "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/")
+;; (setq org-publish-timestamp-directory "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/")
 
 ;; Customize the HTML output
 (setq org-html-validation-link nil
