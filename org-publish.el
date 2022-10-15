@@ -38,7 +38,6 @@
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
              :with-creator t
-             :with-properties t
              :with-author nil
              :with-toc nil
              :section-numbers nil
