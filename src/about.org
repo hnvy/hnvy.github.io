@@ -1,0 +1,221 @@
+#+BEGIN_EXPORT html
+<pre>
+<code>> about.html</code>
+</pre>
+#+END_EXPORT
+
+@@html:<p><a href="../index.html">Main directory</a></p>@@
+
+@@html:<p><a href="https://github.com/hnvy/hnvy.github.io/edit/main/src/about.org">ESotP</a></p>@@
+
+@@html:<hr>@@
+
+* Table of Contents
+:PROPERTIES:
+:CUSTOM_ID: toc
+:END:
+
+#+BEGIN_EXPORT html
+<ul>
+<li><a href="#work">My rudimentary work</a></li>
+<li><a href="#system">System</a></li>
+<li><a href="#introductions">Introductions</a></li>
+<ul>
+<li><a href="#journal">Journal</a></li>
+<li><a href="#software">Software</a></li>
+<ul>
+<li><a href="#misc">Misc</a></li>
+<li><a href="#editors">Editors</a></li>
+<li><a href="#coding">Coding</a></li>
+</ul>
+<li><a href="#science">Science</a></li>
+<li><a href="#language">Language</a></li>
+</ul>
+</ul>
+#+END_EXPORT
+
+* My rudimentary work
+:PROPERTIES:
+:CUSTOM_ID: work
+:END:
+
+Here is a list of the little things I've tried to code in my (very limited) free time.
+- [[https://github.com/hnvy/day-ploy][day-ploy]]: A Python program that assists you in creating a realistic daily schedule depending on how much you love each activity.
+- [[https://github.com/hnvy/do-it][do-it]]: A Python program that helps you stay on track with your tasks.
+- [[https://github.com/hnvy/feyn-it-right][feyn-it-right]]: A Python program that takes an input and provides the user with a reading ease score.
+
+* System
+:PROPERTIES:
+:CUSTOM_ID: system
+:END:
+So, every time I want to learn about something new, I will create a folder with the name of the project. New entries will appear at the top of the file. Each file will likely have ~30 KB of data to ensure that loading speeds are not affected.
+
+- Add ~E#0XY~ to ~LMN.org~: This means that a new session entry (~E#0XY~) has been added (XY = session number) to ~LMN.org~.
+- ~Edit E#0XY in LMN.org~: This means that a new session entry (E#0XY) has been added (XY = session number) to ~LMN.org~.
+- ~Edit E#0XY in LMN.org~: This means that an edit has been made (to E#0XY) in ~LMN.org~.
+- ~Update LMN.org~: This means that I have corrected minor things like typos and so on.
+- The ~logs~ folder contain log entries (which are free-prose writings about anything I've learned). The names of the files in logs will follow this naming convention: ~PROJECT_#_logs.org~. Introductions to each of these files can be found [[#introductions][below]].
+- The ~pearls~ folder will also contain markdown files with names that correspond to their ~logs~ counterparts. The naming convention is the same as before (i.e., a ~pearls~ file for ~PROJECT_1_logs.org~ will be called ~PROJECT_1_pearls.org~).
+
+Due to the unnecessarily sophisticated nature of this 'blog', good bits of knowledge may get lost in all of the filler content. Here is an [[https://hnvy.github.io/blog-1/01_software/01_editors/02_pearls/vim_1_pearls.html][example]] of a Pearls file.
+
+I didn't like the idea that all of the potentially useful pieces of information will end up floating around, everywhere, in the deep sea of knowledge, waiting for a person to take a plunge and discover them. Therefore, I have come up with this new plan. I called it "pearls".
+
+Pearls are top-notch pieces of information which I found to be useful. You'll hopefully be one pearl richer when you find one (unless, of course, you already had a better (or the same) pearl stored in your knowledge box).
+
+Please keep in mind that these pearls are meant to serve as a beginner-to-advanced cheat sheet rather than an all-in-one guide. My skills will develop over time, and the content covered will progress from basic to intermediate, and eventually (hopefully) advanced. So, keep an eye out!
+
+* Introductions
+:PROPERTIES:
+:CUSTOM_ID: introductions
+:END:
+I've described each file's purpose and given you the Key to use for it in the sections below.
+
+
+** Journal
+:PROPERTIES:
+:CUSTOM_ID: journal
+:END:
+This is where I'll put my ideas or thoughts. I've adapted some of them from other sources (all of which will be credited and referenced). Others, as far as I'm aware, are unique. If I later discover that a concept has already been proposed elsewhere, I shall reference it.
+
+Please keep in mind that these ideas and thoughts are based on my personal experiences. Don't expect something I've written to suit you if you decide to implement it into your personal life.
+
+#+BEGIN_EXPORT html
+<pre>
+<code>
+Key:
+- T = thought
+- I = idea
+- T+I = thought/idea
+</code>
+</pre>
+#+END_EXPORT
+
+** Software
+:PROPERTIES:
+:CUSTOM_ID: software
+:END:
+This folder contains content related to computer programs and coding.
+
+*** Misc
+:PROPERTIES:
+:CUSTOM_ID: misc
+:END:
+Here I will post random bits that don't belong elsewhere.
+
+*** Editors
+:PROPERTIES:
+:CUSTOM_ID: editors
+:END:
+I am not an experienced programmer (though I hope to be one someday. Just think of all of the unlimited doors which you could open!). I used Notepad++ as my primary text editor while writing programs. I still use it (almost every day), but not for programming.
+
+Well, when I used Linux, there were a couple of text editors that came pre-installed, and Vim was one of them. So, I launched it, and I couldn't exit the editor. Therefore, I decided to never touch it again, and hence I've forgotten about it.
+
+The other day, I came across a couple of messages online which included pictures of a text editor which had ~ at the start of each line. I instantly remembered where I've seen this before! I also remembered that I still had to tie up some loose ends. So, here I am now.
+
+Learning [[https://www.gnu.org/software/emacs/][Emacs]] is definitely on my want-to-do list. The only issue is that Emacs is faster on Linux when compared to Windows (I think it's because of the way the editor is built? I read somewhere that it has something to do with the fact that it loads many small files, which can make Windows a little upset). So, in order for me to get the full sweet Emacs experience, I'd have to go back to Linux. However, I have had the pleasure to talk with an eminent Emacs user known as Xah Lee. Xah uses Emacs on Windows and has not noticed any issues with regards to performance.
+
+Unfortunately, I've never been able to pinpoint a specific reason why I should learn Emacs (a reason other than "it looks like a lot of fun" and "it has Org-mode"). So, I stopped bothering my brain with such unimportant thoughts and relied on my learning drive, confident that one day I would be glad I did. At the end of the day, what harm can learning and studying the things you enjoy bring? None that I am aware of!
+
+Now that we're done with the introduction, let's get learning!
+
+As this file may become very long, here is a link for those who want to read about my:
+- [[https://hnvy.github.io/blog-1/01_software/01_editors/01_logs/editors_1_logs.html#org5f3b26d][first impression of Vim.]]
+- [[https://hnvy.github.io/blog-1/01_software/01_editors/01_logs/editors_1_logs.html#org1795ff3][first impression of Emacs.]]
+
+#+BEGIN_EXPORT html
+<pre>
+<code>
+Key:
+- V = Vim
+- E = Emacs
+</code>
+</pre>
+#+END_EXPORT
+
+*** Coding
+:PROPERTIES:
+:CUSTOM_ID: coding
+:END:
+Here, I will put details on various programming languages that I may learn about. I'll make an effort to keep explanations simple so that anyone from any background can understand what is going on. So, anticipate a lot of waffle.
+
+I would like to thank the almighty Emacs for making life so much easier by allowing me to export the current file as HTML. That has truly saved me a lot of time. All I had to do was do M-x htmlfontify-buffer (which I discovered by accident), and ta-daaa!
+
+#+BEGIN_EXPORT html
+<pre>
+<code>
+Key:
+- py = Python
+- c = C
+</code>
+</pre>
+#+END_EXPORT
+
+** Science
+:PROPERTIES:
+:CUSTOM_ID: science
+:END:
+Here I'll discuss various non-computer science topics that I find fascinating. Please do your research after reading the content before memorising it, as there is no assurance that it will be accurate, correct, or up-to-date. If you see an error, or if you want to discuss something, then please let me know. I'll be more than happy to chat about geeky things!
+
+I have decided to post my science notes (mainly Medicine-related) online for people to have a look at (particularly other healthcare professionals). They may be inaccurate, and indeed wrong at times. Yet again, I strongly advise that you should ALWAYS refer back to a credible source before commiting this knowledge to memory.
+
+The text will be difficult to understand at times, and that is because I don't quite have the time to simplify it. However, I have tried my best to make it super easy to understand (even by a curious 9-year-old)!
+
+If a topic is large enough, I may make a separate file that is dedicated to it. The file will most likely be written in stages rather than all at once.
+
+Finally, you'll note that I've included some of my own artwork. This is because I believe that science is art and art is science. I'll most likely write about it in the future.
+
+#+BEGIN_EXPORT html
+<pre>
+<code>
+Key:
+- A = artwork
+- S = science
+</code>
+</pre>
+#+END_EXPORT
+
+** Language
+:PROPERTIES:
+:CUSTOM_ID: language
+:END:
+Here I will document my language learning progress. I plan to learn the following languages:
+- Japanese (I'd like to read a few of my favourite Japanese books in their original language.)
+- Arabic (I think this has the most complex syntax of any language, and knowing a significant portion of it would be terrific)
+- Hebrew (I want to read the Bible in Hebrew. Don't ask me why.)
+- Russian (same as reason as Japanese)
+- On and off, I've attempted to learn Japanese. I began on the 2nd of July, 2019. When university commenced, though, I had little to no time to devote to language learning, and therefore I put it on pause.
+
+On the 26th of August, 2020, I attempted to restart. The same problem as before has arisen, and I've put it on hold once more.
+
+After some thought, I believe the lack of a comprehensive timeline and roadmap was to blame. It was a disaster to not have either of those. It's going to be different this time. Every weekend, I will commit a couple of hours to learning a language. Slowly but steadily, I am improving at this skill. Take a look at the number of [[https://hnvy.github.io/blog-1/02_science/01_logs/science_1_logs.html][art pieces]] I've created, for example (I know it is not much, but at least it is not zero!).
+
+I am familiar with the Hebrew and Arabic alphabets, but my grasp of those languages isn't that excellent. I want to increase my vocabulary so that I can achieve my desired goals.
+
+When it comes to learning a language, spaced repetition is crucial. Integrating yourself in it is just as, if not more, beneficial. So, these are the only two tool which I will use in order to learn new languages. No paid apps, and certainly no fancy software!
+
+#+BEGIN_EXPORT html
+<pre>
+<code>
+Key:
+- J = Japanese
+- A = Arabic
+- H = Hebrew
+- R = Russian
+</code>
+</pre>
+#+END_EXPORT
+
+
+#+BEGIN_EXPORT html
+<p>
+<hr style="width:75%;">
+</p>
+
+<footer style="font-size: 0.75em; font-style: italic; text-align: center; padding: 1em 20em 0em 20em;">
+<p>Unless otherwise noted, every original piece of writing/artwork on <a href="https://hnvy.github.io/">this site</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, and all code snippets are licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3+</a>.</p>
+
+<p>Please note that the content on this site is NOT intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek professional medical attention. My notes are NOT intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice! In fact, NONE of this site's information should be taken as advice, because the content on this site may NOT be applicable to you.</p>
+</footer>
+#+END_EXPORT
+
