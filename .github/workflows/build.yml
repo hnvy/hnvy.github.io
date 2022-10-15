@@ -1,6 +1,6 @@
-# This is taken from System Crafters: https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/
-
 name: Publish to GitHub Pages
+# Most of this code is from System Crafters.
+# You can find the original at: https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/
 
 on:
   push:
