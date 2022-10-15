@@ -38,8 +38,8 @@ jobs:
 
       - name: Install Emacs
         uses: jcs090218/setup-emacs-windows@master
-          with:
-            version: 24.5
+        with:
+          version: 24.5
             
       - name: Build the site
         run: emacs -Q --script org-publish.el
