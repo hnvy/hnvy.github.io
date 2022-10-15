@@ -15,7 +15,7 @@
   (package-refresh-contents))
 
 ;; Install dependencies
-;; (package-install 'htmlize)
+(package-install 'htmlize)
 
 ;; Load the publishing system
 (require 'ox-publish)
