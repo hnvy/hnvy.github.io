@@ -44,6 +44,11 @@ jobs:
       - name: Build the site
         run: emacs -Q --script org-publish.el
 
+      - name: Upload Artifacts # The project is then uploaded as an artifact named 'site'.
+        uses: actions/upload-artifact@v1
+        with:
+          name: site
+          path: build
 
   deploy:
     concurrency: ci-${{ github.ref }}
