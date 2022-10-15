@@ -1,6 +1,6 @@
 #+BEGIN_EXPORT html
 <pre>
-<code>> ./html/archive.html</code>
+<code>> ./archive.html</code>
 </pre>
 #+END_EXPORT
 
