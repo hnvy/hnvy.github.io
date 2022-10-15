@@ -10,7 +10,7 @@
 </p>
 #+END_EXPORT
 
-@@html:<p><a href="https://github.com/hnvy/hnvy.github.io/edit/main/index.html">ESotP</a></p>@@
+@@html:<p><a href="https://github.com/hnvy/hnvy.github.io/edit/main/src/index.org">ESotP</a></p>@@
 
 @@html:<hr>@@
 
