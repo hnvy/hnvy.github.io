@@ -22,9 +22,6 @@ jobs:
 
       - name: Build the site
         run: ./script.sh
-        
-      - name: List files in current directory
-        run: ls -al
 
       - name: Publish generated content to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
