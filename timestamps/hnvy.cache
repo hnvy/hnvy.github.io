@@ -1,7 +1,0 @@
-(setq org-publish-cache (make-hash-table :test 'equal :weakness nil :size 100))
-(puthash ":project:" "hnvy" org-publish-cache)
-(puthash ":cache-file:" "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/hnvy.cache" org-publish-cache)
-(puthash "/home/runner/work/hnvy.github.io/hnvy.github.io/src/archive.org" '(:crossrefs (((other "Archive") . 244957504) ((headline "Archive") . 244957504) ((other "Language") . 235744256) ((headline "Language") . 235744256) ((other "Science") . 143122052) ((headline "Science") . 143122052) ((other "Software") . 168564165) ((headline "Software") . 168564165) ((other "Coding") . 194942223) ((headline "Coding") . 194942223) ((other "editors") . 216765690) ((headline "editors") . 216765690) ((other "Misc") . 12197859) ((headline "Misc") . 12197859) ((other "Journal") . 33491570) ((headline "Journal") . 33491570)) :index nil) org-publish-cache)
-(puthash "Xcfe2e168eda1ebf79d2719811184ef5607f1ee4f" 1665794122 org-publish-cache)
-(puthash "/home/runner/work/hnvy.github.io/hnvy.github.io/src/index.org" '(:crossrefs (((other "Subdomains") . 207794323) ((headline "Subdomains") . 207794323) ((other "Edit" "Something" "on" "this" "Page" "(ESoTP)") . 233283446) ((headline "Edit" "Something" "on" "this" "Page" "(ESoTP)") . 233283446) ((other "hnvy.github.io") . 81381302) ((headline "hnvy.github.io") . 81381302)) :index nil) org-publish-cache)
-(puthash "X1e9bdb52abab836c5deb93e2fcaea60ae90d92fd" 1665794122 org-publish-cache)
