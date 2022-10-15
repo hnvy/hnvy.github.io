@@ -1,6 +1,6 @@
 #+BEGIN_EXPORT html
 <pre>
-<code>> about.html</code>
+<code>> ./about.html</code>
 </pre>
 #+END_EXPORT
 
