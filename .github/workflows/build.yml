@@ -34,4 +34,9 @@ jobs:
         with:
           branch: gh-pages
           commit-message: Update ${{ github.sha }}
-          folder: public
+          folder: |
+            public
+            ./src/css/
+      
+
+
