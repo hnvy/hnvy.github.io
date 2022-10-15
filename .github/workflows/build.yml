@@ -26,7 +26,7 @@ jobs:
       - name: Build the site
         run: ./script.sh
       
-      - name: Copy CSS file to the ~public~ folder
+      - name: Copy main.css and rss.xml to the ~public~ folder
         run: cp -R ./src/css/ ./src/rss.xml ./public
 
       - name: Publish generated content to GitHub Pages branch
