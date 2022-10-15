@@ -20,6 +20,8 @@
 :END:
 This site is for me to document my thoughts, ideas, and progress. It is composed of nothing but HTML and simple CSS. No Javascript, no analytics, no cookies, no advertisement, no nothing. Just text and, sometimes, pictures. Think of it as a personal Wiki page of a young learner rather than a blog...
 
+Source code of this site can be found [[https://github.com/hnvy/hnvy.github.io][here]].
+
 * Edit Something on this Page (ESoTP)
 :PROPERTIES:
 :CUSTOM_ID: esotp
