@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Emacs
-        run: sudo add-apt-repository ppa:ubuntu-elisp/ppa && sudo apt-get update && sudo apt install emacs-snapshot
+        run: sudo add-apt-repository ppa:ubuntu-elisp/ppa && sudo apt-get update && sudo apt install emacs29-nox
        # uses: purcell/setup-emacs@master
        # with:
        #   version: 27.2 # You must use this version of Emacs (or higher), otherwise you would get issues with Org Publish when exporting header IDs (Org will continue using its automatically generated IDs)
