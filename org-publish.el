@@ -43,6 +43,7 @@
              :time-stamp-file nil
              :timestamp t)))
 
+(org-publish-remove-all-timestamps)
 (setq org-publish-timestamp-directory "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/")
 
 ;; Generate the site output
