@@ -27,7 +27,7 @@ jobs:
         run: ./script.sh
       
       - name: Copy CSS file to the ~public~ folder
-        run: cp -R ./src/css/ ./public
+        run: cp -R ./src/css/ ./src/rss.xml ./public
 
       - name: Publish generated content to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
