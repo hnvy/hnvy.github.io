@@ -11,6 +11,7 @@
 
 ;; Customize the HTML output
 (setq org-html-validation-link nil
+      org-export-with-title nil
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
       org-export-with-sub-superscripts nil
