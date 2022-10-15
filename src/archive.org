@@ -1,3 +1,5 @@
+#+TITLE: Archive
+
 #+BEGIN_EXPORT html
 <pre>
 <code>> ./archive.html</code>
