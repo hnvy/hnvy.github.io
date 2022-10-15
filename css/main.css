@@ -1,0 +1,70 @@
+/* HTML and body */
+html, body {
+   display: block;
+   padding: 3em;
+}
+
+/* Code blocks */
+code {
+  color: red;
+  font-weight: bold;
+  overflow-wrap: auto;
+}
+
+/* Links colour */
+a {
+  background-color: PaleTurquoise;
+  color: Black;
+}
+
+/* Makes links change colour when the mouse hovers over */
+a:hover {
+  background-color: Black;
+  color: PaleTurquoise;
+}
+
+/* Images */
+img {
+  width: 50%;
+  margin: auto;
+}
+
+/* Source code */
+pre {
+  color: white;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  background-color: black;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+/* These classes are exported from the almighty Emacs (I've changed the colors). */
+/* Emacs saved my life here as it has automatically generated everything for me. */
+span.default {
+  color: Grey;
+}
+
+span.keyword {
+  color: DodgerBlue;
+}
+
+span.function-name {
+  color: BlanchedAlmond;
+}
+
+span.type {
+  color: Aquamarine;
+}
+
+span.string {
+  color: DarkGoldenRod;
+}
+
+span.preprocessor {
+  color: Gold;
+}
+
+span.comment, span.comment-delimiter {
+  color: LightSlateGray;
+}
