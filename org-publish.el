@@ -3,20 +3,6 @@
 ;; I am grateful for System Crafters for posting this config online.
 ;; You can find the original code at: https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/
 
-(require 'package)
-(setq package-user-dir (expand-file-name "./.packages"))
-(setq package-archives '(("melpa" . "https://melpa.org/packages/")
-                         ("elpa" . "https://elpa.gnu.org/packages/")))
-
-
-;; Initialize the package system
-(package-initialize)
-(unless package-archive-contents
-  (package-refresh-contents))
-
-;; Install dependencies
-(package-install 'htmlize)
-
 ;; Load the publishing system
 (require 'ox-publish)
 
