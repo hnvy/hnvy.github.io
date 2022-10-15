@@ -41,7 +41,7 @@
 :CUSTOM_ID: work
 :END:
 
-Here is a list of the little things I've tried to code in my (very limited) free time.
+Here is a list of the little things I've tried to code in my (very limited) free time:
 - [[https://github.com/hnvy/day-ploy][day-ploy]]: A Python program that assists you in creating a realistic daily schedule depending on how much you love each activity.
 - [[https://github.com/hnvy/do-it][do-it]]: A Python program that helps you stay on track with your tasks.
 - [[https://github.com/hnvy/feyn-it-right][feyn-it-right]]: A Python program that takes an input and provides the user with a reading ease score.
