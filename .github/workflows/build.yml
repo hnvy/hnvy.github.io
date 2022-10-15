@@ -7,21 +7,42 @@ on:
     branches:
       - main
 
+# jobs:
+  # publish:
+    # runs-on: ubuntu-latest
+    # steps:
+      # - name: Checkout
+        # uses: actions/checkout@v2
+
+      # - name: Install Emacs
+        # run: sudo apt install emacs-nox --yes
+
+      # - name: Change permission of script.sh
+        # run: chmod +x script.sh
+
+      # - name: Build the site
+        # run: ./script.sh
+
+      # - name: Publish generated content to GitHub Pages branch
+        # uses: JamesIves/github-pages-deploy-action@v4
+        # with:
+          # branch: gh-pages
+          # commit-message: Update ${{ github.sha }}
+          # folder: public
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
       - name: Install Emacs
-        run: sudo apt install emacs-nox --yes
-
-      - name: Change permission of script.sh
-        run: chmod +x script.sh
-
+        uses: jcs090218/setup-emacs-windows@master
+          with:
+            version: 24.5
+            
       - name: Build the site
-        run: ./script.sh
+        run: emacs -Q --script org-publish.el
 
       - name: Publish generated content to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
