@@ -14,7 +14,7 @@
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
       org-export-with-sub-superscripts nil
-      org-html-head "<link rel=\"stylesheet\" href=\"https://github.com/hnvy/hnvy.github.io/main.css\" />")
+      org-html-head "<link rel=\"stylesheet\" href=\"https://hnvy.github.io/css/main.css\" />")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
