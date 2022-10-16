@@ -50,7 +50,7 @@ Here is an archive of all the entries across all the subdomains.
 - [[https://hnvy.github.io/blog-1/01_software/00_misc/01_logs/misc_1_logs.html#orgb2a8f30][E#002 (25/07/2022) - CMD, find X in subdirectories.]]
 - [[https://hnvy.github.io/blog-1/01_software/00_misc/01_logs/misc_1_logs.html#org317807a][E#001 (16/07/2022) - RegEx, match lines to end of file.]]
 
-*** editors
+*** Editors
 :PROPERTIES:
 :CUSTOM_ID: editors
 :END:
