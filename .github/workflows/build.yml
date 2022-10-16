@@ -20,15 +20,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      
+
       - name: List files
         run: ls -la
-        
+
+        # You must use this version of Emacs (or higher), otherwise you would get issues
+        # with Org Publish when exporting header IDs (Org will continue using its automatically generated IDs)
       - name: Install Emacs
         run: sudo add-apt-repository ppa:kelleyk/emacs && sudo apt-get update && sudo apt install emacs28-nox
        # uses: purcell/setup-emacs@master
        # with:
-       #   version: 27.2 # You must use this version of Emacs (or higher), otherwise you would get issues with Org Publish when exporting header IDs (Org will continue using its automatically generated IDs)
+       #   version: 27.2
 
       - name: Build the site
         run: |
@@ -44,11 +46,11 @@ jobs:
           branch: gh-pages
           commit-message: Update ${{ github.sha }}
           folder: public
-      
-      - name: Commit timestamps
-        run: |
-          git config --global user.name "hnvy"
-          git config --global user.email "hnvy@users.noreply.github.com"
-          git add -A
-          git commit -m "Add timestamps"
-          git push
+
+      # - name: Commit timestamps
+        # run: |
+          # git config --global user.name "hnvy"
+          # git config --global user.email "hnvy@users.noreply.github.com"
+          # git add -A
+          # git commit -m "Add timestamps"
+          # git push
