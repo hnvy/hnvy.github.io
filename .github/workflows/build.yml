@@ -49,4 +49,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: timestamps
-          path: /home/runner/work/hnvy.github.io/blog-1/public/timestamps/
+          path: /home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/
