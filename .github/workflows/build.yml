@@ -21,8 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: List files
-        run: ls -la
 
         # You must use this version of Emacs (or higher), otherwise you would get issues
         # with Org Publish when exporting header IDs (Org will continue using its automatically generated IDs)
@@ -33,12 +31,16 @@ jobs:
        #   version: 27.2
 
       - name: Build the site
-        run: |
-          chmod +x script.sh
-          ./script.sh
+        run: emacs -Q --script org-publish.el
 
       - name: Copy main.css and rss.xml to the ~public~ folder
         run: cp -R ./src/css/ ./src/rss.xml ./public
+
+      - name: Commit timestamps changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automatic commit
+          file_pattern: 'public/timestamps/*'
 
       - name: Publish generated content to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
@@ -46,11 +48,3 @@ jobs:
           branch: gh-pages
           commit-message: Update ${{ github.sha }}
           folder: public
-
-      # - name: Commit timestamps
-        # run: |
-          # git config --global user.name "hnvy"
-          # git config --global user.email "hnvy@users.noreply.github.com"
-          # git add -A
-          # git commit -m "Add timestamps"
-          # git push
