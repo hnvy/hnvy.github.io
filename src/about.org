@@ -143,6 +143,8 @@ Here, I will put details on various programming languages that I may learn about
 
 I would like to thank the almighty Emacs for making life so much easier by allowing me to export the current file as HTML. That has truly saved me a lot of time. All I had to do was do M-x htmlfontify-buffer (which I discovered by accident), and ta-daaa!
 
+Check out the [[https://github.com/hnvy/coding-playground][coding-playground]]; I use it to compile code.
+
 #+BEGIN_EXPORT html
 <pre>
 <code>
