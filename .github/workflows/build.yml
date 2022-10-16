@@ -44,9 +44,3 @@ jobs:
           branch: gh-pages
           commit-message: Update ${{ github.sha }}
           folder: public
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: timestamps
-          path: /home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/
