@@ -194,7 +194,7 @@ After some thought, I believe the lack of a comprehensive timeline and roadmap w
 
 I am familiar with the Hebrew and Arabic alphabets, but my grasp of those languages isn't that excellent. I want to increase my vocabulary so that I can achieve my desired goals.
 
-When it comes to learning a language, spaced repetition is crucial. Integrating yourself in it is just as, if not more, beneficial. So, these are the only two tool which I will use in order to learn new languages. No paid apps, and certainly no fancy software!
+When it comes to learning a language, spaced repetition is crucial. Integrating yourself in it is just as, if not more, beneficial. So, these are the only two tool which I will use in order to learn new languages. No paid apps, and certainly no fancy software (well, apart from the great SRS)!
 
 #+BEGIN_EXPORT html
 <pre>
