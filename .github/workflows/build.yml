@@ -44,3 +44,10 @@ jobs:
           branch: gh-pages
           commit-message: Update ${{ github.sha }}
           folder: public
+      
+      - name: Commit timestamps
+        run: |
+          git config --global user.name "hnvy"
+          git config --global user.email "hnvy@users.noreply.github.com"
+          git commit -am "Add timestamps"
+          git push
