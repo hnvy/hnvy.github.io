@@ -20,7 +20,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
+      
+      - name: List files
+        run: ls -la
+        
       - name: Install Emacs
         run: sudo add-apt-repository ppa:kelleyk/emacs && sudo apt-get update && sudo apt install emacs28-nox
        # uses: purcell/setup-emacs@master
@@ -41,3 +44,9 @@ jobs:
           branch: gh-pages
           commit-message: Update ${{ github.sha }}
           folder: public
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: timestamps
+          path: /home/runner/work/hnvy.github.io/blog-1/public/timestamps/
