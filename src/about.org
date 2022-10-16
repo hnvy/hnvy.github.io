@@ -207,17 +207,3 @@ Key:
 </code>
 </pre>
 #+END_EXPORT
-
-
-#+BEGIN_EXPORT html
-<p>
-<hr style="width:75%;">
-</p>
-
-<footer style="font-size: 0.75em; font-style: italic; text-align: center; padding: 1em 20em 0em 20em;">
-<p>Unless otherwise noted, every original piece of writing/artwork on <a href="https://hnvy.github.io/">this site</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, and all code snippets are licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3+</a>.</p>
-
-<p>Please note that the content on this site is NOT intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek professional medical attention. My notes are NOT intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice! In fact, NONE of this site's information should be taken as advice, because the content on this site may NOT be applicable to you.</p>
-</footer>
-#+END_EXPORT
-
