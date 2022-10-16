@@ -34,7 +34,7 @@ This website exists solely to demonstrate that being a novice is perfectly OK, a
 :PROPERTIES:
 :CUSTOM_ID: subdomains
 :END:
-- [[https://hnvy.github.io/blog-1/][blog-1]]: here is the [[https://github.com/hnvy/blog-1][source code]]
+- [[https://hnvy.github.io/blog-1/][blog-1]] ([[https://github.com/hnvy/blog-1][source code]])
 
 #+BEGIN_EXPORT html
 <p>
