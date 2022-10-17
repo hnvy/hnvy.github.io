@@ -6,7 +6,8 @@
 ;; Load the publishing system
 (require 'ox-publish)
 
-;; (setq org-publish-use-timestamps-flag nil)
+(setq org-publish-use-timestamps-flag t)
+(setq org-publish-cache t)
 (setq org-publish-timestamp-directory "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/")
 
 ;; Customize the HTML output
