@@ -74,6 +74,7 @@ Here is an archive of all the entries across all the subdomains.
 :PROPERTIES:
 :CUSTOM_ID: science
 :END:
+- [[https://hnvy.github.io/blog-1/02_science/01_logs/science_1_logs.html#org1oplxms][E#013 (25/06/2022) - dragon's heart (A)]]
 - [[https://hnvy.github.io/blog-1/02_science/01_logs/science_1_logs.html#org20ca0ad][E#012 (12/05/2022) - bus stop (A)]]
 - [[https://hnvy.github.io/blog-1/02_science/01_logs/science_1_logs.html#org6b910de][E#011 (08/05/2022) - tree man (A)]]
 - [[https://hnvy.github.io/blog-1/02_science/01_logs/science_1_logs.html#org2c6c7ed][E#010 (07/05/2022) - shadows (A)]]
