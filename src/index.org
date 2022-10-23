@@ -6,15 +6,11 @@
 </pre>
 #+END_EXPORT
 
-#+BEGIN_EXPORT html
-<p>
-<a href="./about.html">About</a> - <a href="./archive.html">Archive</a> - <a href="./rss.xml">RSS feed</a>
-</p>
-#+END_EXPORT
+[[https://hnvy.github.io/about.html][About]] - [[https://hnvy.github.io/archive.html][Archive]] - [[https://hnvy.github.io/rss.xml][RSS feed]]
 
-@@html:<p><a href="https://github.com/hnvy/hnvy.github.io/edit/main/src/index.org">ESotP</a></p>@@
+[[https://github.com/hnvy/hnvy.github.io/edit/main/src/index.org][ESotP]]
 
-@@html:<hr>@@
+-----
 
 * hnvy.github.io
 :PROPERTIES:

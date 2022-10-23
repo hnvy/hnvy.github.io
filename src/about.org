@@ -6,11 +6,9 @@
 </pre>
 #+END_EXPORT
 
-@@html:<p><a href="../index.html">Main directory</a></p>@@
+[[https://hnvy.github.io/][Main directory]] - [[https://github.com/hnvy/hnvy.github.io/edit/main/src/about.org][ESotP]]
 
-@@html:<p><a href="https://github.com/hnvy/hnvy.github.io/edit/main/src/about.org">ESotP</a></p>@@
-
-@@html:<hr>@@
+-----
 
 * Table of Contents
 :PROPERTIES:
