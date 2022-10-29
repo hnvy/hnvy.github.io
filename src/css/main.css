@@ -4,13 +4,6 @@ body {
    padding: 3em;
 }
 
-/* Code blocks */
-code {
-  color: red;
-  font-weight: bold;
-  overflow-wrap: auto;
-}
-
 /* Links colour */
 a {
   background-color: PaleTurquoise;
@@ -38,6 +31,13 @@ pre {
   font-size: 1em;
   padding: 0.5em;
   width: 70ch;
+}
+
+/* Code blocks */
+code {
+  color: red;
+  font-weight: bold;
+  overflow-wrap: auto;
 }
 
 /* These classes are exported from the almighty Emacs (I've changed the colors). */
