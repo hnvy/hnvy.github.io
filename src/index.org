@@ -18,8 +18,6 @@
 :END:
 This site is for me to document my thoughts, ideas, and progress. It is composed of nothing but HTML and a (very) simple CSS. No Javascript, no analytics, no cookies, no advertisement, no nothing. Just text and, sometimes, pictures. Think of it as a personal Wiki page of a young learner rather than a blog...
 
-Source code of this site can be found [[https://github.com/hnvy/hnvy.github.io][here]].
-
 * Edit Something on this Page (ESoTP)
 :PROPERTIES:
 :CUSTOM_ID: esotp
@@ -30,6 +28,7 @@ This website exists solely to demonstrate that being a novice is perfectly OK, a
 :PROPERTIES:
 :CUSTOM_ID: subdomains
 :END:
+- [[https://hnvy.github.io/][hnvy.github.io]] ([[https://github.com/hnvy/hnvy.github.io][source code]])
 - [[https://hnvy.github.io/blog-1/][blog-1]] ([[https://github.com/hnvy/blog-1][source code]])
 
 #+BEGIN_EXPORT html
