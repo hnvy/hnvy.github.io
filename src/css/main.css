@@ -1,5 +1,5 @@
 /* HTML and body */
-html, body {
+body {
    display: block;
    padding: 3em;
 }
@@ -37,6 +37,7 @@ pre {
   background-color: black;
   font-size: 1em;
   padding: 0.5em;
+  width: 70ch;
 }
 
 /* These classes are exported from the almighty Emacs (I've changed the colors). */
