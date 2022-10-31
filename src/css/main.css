@@ -28,7 +28,7 @@ pre {
   color: DarkSlateGrey;
   word-wrap: break-word;
   white-space: pre-wrap;
-  background-color: SeaShell;
+  background-color: WhiteSmoke;
   font-size: 1em;
   padding: 0.5em;
 }
@@ -67,9 +67,9 @@ span.string {
 }
 
 span.preprocessor {
-  color: Gold;
+  color: FireBrick;
 }
 
 span.comment, span.comment-delimiter {
-  color: Lavender;
+  color: Salmon;
 }
