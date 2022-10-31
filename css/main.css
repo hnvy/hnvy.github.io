@@ -16,19 +16,12 @@ a:hover {
   color: PaleTurquoise;
 }
 
-/* Images
-img {
-  width: 50%;
-  margin: auto;
-}
-*/
-
 /* Source code */
 pre {
   color: DarkSlateGrey;
+  background-color: WhiteSmoke;
   word-wrap: break-word;
   white-space: pre-wrap;
-  background-color: WhiteSmoke;
   font-size: 1em;
   padding: 0.5em;
 }
@@ -48,10 +41,6 @@ span.default {
 
 span.keyword {
   color: DodgerBlue;
-}
-
-span.variable-name {
-  color: DarkBlue;
 }
 
 span.function-name {
