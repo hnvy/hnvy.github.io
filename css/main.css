@@ -51,7 +51,7 @@ span.keyword {
 }
 
 span.variable-name {
-  color: DimGrey;
+  color: DarkBlue;
 }
 
 span.function-name {
@@ -59,7 +59,7 @@ span.function-name {
 }
 
 span.type {
-  color: GoldenRod;
+  color: Brown;
 }
 
 span.string {
