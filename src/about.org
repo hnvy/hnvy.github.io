@@ -1,8 +1,8 @@
 #+TITLE: About
 
+#+BEGIN_EXPORT html
 <img style="display: block; width: 5%; margin-left: auto; margin-right: auto;" src="https://lh3.googleusercontent.com/pw/AL9nZEUa5lXgM2yDHiqpn-pe-8KT8TfBMNQ5CKw39QtH0UHW33xfbfM25TiiH_6jZMgaU1Pi9NFdEd5r1-8FamlgW7l1nZ3HI-EA7XRb0KVKBREHN-4rY67i4SXxNh24STBW3dMPkd21i8YN0W62CieIyP0=w691-h500-no?authuser=0">
 
-#+BEGIN_EXPORT html
 <pre>
 <code>> ./about.html</code>
 </pre>
