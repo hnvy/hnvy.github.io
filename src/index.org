@@ -28,6 +28,7 @@ This website exists solely to demonstrate that being a novice is perfectly OK, a
 :PROPERTIES:
 :CUSTOM_ID: subdomains
 :END:
+I converted the content of the site to Org mode files to reduce the maintenance friction. The Org mode files are then converted to HTML. Have a look at the source code below to find out more about the process.
 - [[https://hnvy.github.io/][hnvy.github.io]] ([[https://github.com/hnvy/hnvy.github.io][source code]])
 - [[https://hnvy.github.io/blog-1/][blog-1]] ([[https://github.com/hnvy/blog-1][source code]])
 
