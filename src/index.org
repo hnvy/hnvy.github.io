@@ -22,7 +22,7 @@ This site is for me to document my thoughts, ideas, and progress. It is composed
 :PROPERTIES:
 :CUSTOM_ID: esotp
 :END:
-This website exists solely to demonstrate that being a novice is perfectly OK, and that novices make mistakes (lots of them). Every page on this site will have a hyperlink, at the top, to allow you to Edit Something on this Page (ESoTP). This is a call to action for you to identify any errors (and, I do mean /any/ errors) in my work, fix them, and send pull requests.
+This website exists solely to demonstrate that being a novice is perfectly OK, and that novices make mistakes (lots of them). Every page on this site will have a hyperlink, at the top, to allow you to Edit Something on this Page (ESoTP). This is a call to action for you to identify any errors (and, I do mean /any/ errors) in my work, fix them, and send a pull requests.
 
 * Subdomains
 :PROPERTIES:
