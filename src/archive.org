@@ -1,5 +1,5 @@
 #+TITLE: Archive
-#+HTML_HEAD_EXTRA: <style> table { margin-left: auto; margin-right: auto; width: 100%; } tbody { display: block; } tbody { height: 20em; overflow-x: hidden; overflow-y: auto; } </style>
+#+HTML_HEAD_EXTRA: <style> table { margin-left: auto; margin-right: auto; width: 100%; } tr:nth-child(even) { background-color: grey; } tbody { display: block; } tbody { height: 20em; overflow-x: hidden; overflow-y: auto; } </style>
 
 #+BEGIN_EXPORT html
 <pre>
@@ -21,24 +21,23 @@ Here is an archive of all the entries across all the subdomains.
 :PROPERTIES:
 :CUSTOM_ID: journal
 :END:
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_2_logs.html#org1c1fe0f][E#017 (02/11/2022) - go Google it (T)]]                        |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_2_logs.html#org29jro21][E#016 (16/10/2022) - following a plan (T)]]                    |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#orgfcd4105][E#015 (02/10/2022) - software makes no mistakes (T)]]          |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org8016f98][E#014 (09/07/2022) - public story (I)]]                        |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org88cb90e][E#013 (03/07/2022) - land of code (I)]]                        |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#orgee07f40][E#012 (01/07/2022) - perseverance and tasks (T)]]              |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_2_logs.html#org1c1fe0f][E#017 (02/11/2022) - go Google it (T)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_2_logs.html#org29jro21][E#016 (16/10/2022) - following a plan (T)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#orgfcd4105][E#015 (02/10/2022) - software makes no mistakes (T)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org8016f98][E#014 (09/07/2022) - public story (I)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org88cb90e][E#013 (03/07/2022) - land of code (I)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#orgee07f40][E#012 (01/07/2022) - perseverance and tasks (T)]] |
 | [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org1a85822][E#011 (26/06/2022) - catching thoughts with reflection (T+I)]] |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org7a7dcd7][E#010 (04/06/2022) - red ear (T+I)]]                           |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#orga3943e2][E#009 (27/05/2022) - non-receptive (T)]]                       |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org73993f1][E#008 (26/04/2022) - not on my syllabus (T)]]                  |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org8d2b587][E#007 (12/04/2022) - reflect on it (T+I)]]                     |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org480def8][E#006 (10/04/2022) - day by day (I)]]                          |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org6460da5][E#005 (27/03/2022) - art and peace (T)]]                       |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org3d1bfdb][E#004 (28/02/2022) - no template, no problem (T)]]             |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org99a5a80][E#003 (10/09/2021) - a free mind is a creative mind (T)]]      |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org0c7deff][E#002 (09/08/2021) - graphical view of your day (I)]]          |
-| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org99a4745][E#001 (08/08/2021) - daily proportion (I)]]                    |
-
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org7a7dcd7][E#010 (04/06/2022) - red ear (T+I)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#orga3943e2][E#009 (27/05/2022) - non-receptive (T)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org73993f1][E#008 (26/04/2022) - not on my syllabus (T)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org8d2b587][E#007 (12/04/2022) - reflect on it (T+I)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org480def8][E#006 (10/04/2022) - day by day (I)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org6460da5][E#005 (27/03/2022) - art and peace (T)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org3d1bfdb][E#004 (28/02/2022) - no template, no problem (T)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org99a5a80][E#003 (10/09/2021) - a free mind is a creative mind (T)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org0c7deff][E#002 (09/08/2021) - graphical view of your day (I)]] |
+| [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org99a4745][E#001 (08/08/2021) - daily proportion (I)]] |
 
 ** Software
 :PROPERTIES:
