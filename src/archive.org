@@ -1,19 +1,7 @@
 #+TITLE: Archive
-#+OPTIONS: html-style:nil
+#+HTML_HEAD_EXTRA: <style> tbody { display: block; } tbody { height: 20em; overflow-x: hidden; overflow-y: auto; } </style>
 
 #+BEGIN_EXPORT html
-<style>
-  tbody {
-    display: block;
-}
-
-  tbody {
-    height: 20em;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-</style>
-
 <pre>
 <code>> ./archive.html</code>
 </pre>
