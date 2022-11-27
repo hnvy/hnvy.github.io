@@ -1,7 +1,7 @@
 #+TITLE: About
 
 #+BEGIN_EXPORT html
-<img style="display: block; width: 5%; margin-left: auto; margin-right: auto;" src="https://lh3.googleusercontent.com/pw/AL9nZEUd3EGm96SkruS88pVpsCA1U00ftcSRVEx1QlQnVL7wzJ5BAic9oPr502GOD9X0RAmzFMF4rRPSfvYEYkmTCvXY3fSS0Ig7Ev-i1oV5v-xTM157tF-losw_u7T1h5A8ssQ8ILa6zevMBALhGXXvWAI=w70-h50-no?authuser=1">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://lh3.googleusercontent.com/pw/AL9nZEUd3EGm96SkruS88pVpsCA1U00ftcSRVEx1QlQnVL7wzJ5BAic9oPr502GOD9X0RAmzFMF4rRPSfvYEYkmTCvXY3fSS0Ig7Ev-i1oV5v-xTM157tF-losw_u7T1h5A8ssQ8ILa6zevMBALhGXXvWAI=w70-h50-no?authuser=1">
 
 <pre>
 <code>> ./about.html</code>
