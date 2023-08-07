@@ -1,0 +1,34 @@
+name: Publish modified content to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # fetch 0 commits
+
+      - name: src2 creation and copying
+        run: |
+          mkdir src2
+          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -I{} cp {} ./src2/
+
+      - name: Install Emacs
+        run: sudo add-apt-repository ppa:kelleyk/emacs && sudo apt-get update && sudo apt install emacs28-nox
+
+      - name: Publish modified files only
+        run: emacs -Q --script org-publish.el
+
+      - name: Publish generated content to GitHub Pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          clean: false # Do not overwrite/delete the old files. This is because, from now on, we will only publish the changed files.
+          commit-message: Update ${{ github.sha }}
+          folder: public
