@@ -50,7 +50,7 @@ Here is a list of the little things I've tried to code in my (very limited) free
 :PROPERTIES:
 :CUSTOM_ID: system
 :END:
-So, every time I want to learn about something new, I will create a folder with the name of the project. New entries will appear at the top of the file. Each file will likely have ~30 KB of data to ensure that loading speeds are not affected.
+So, every time I want to learn about something new, I will create a folder with the name of the project. New entries will appear at the top of the file. Each file will likely have ~30 KB of data to ensure that page loading speeds are not affected.
 
 - Add ~E#0XY~ to ~LMN.org~: This means that a new session entry (~E#0XY~) has been added (XY = session number) to ~LMN.org~.
 - ~Edit E#0XY in LMN.org~: This means that a new session entry (E#0XY) has been added (XY = session number) to ~LMN.org~.
