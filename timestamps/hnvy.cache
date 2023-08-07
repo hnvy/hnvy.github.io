@@ -1,3 +1,0 @@
-(setq org-publish-cache (make-hash-table :test 'equal :weakness nil :size 100))
-(puthash ":project:" "hnvy" org-publish-cache)
-(puthash ":cache-file:" "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/hnvy.cache" org-publish-cache)
