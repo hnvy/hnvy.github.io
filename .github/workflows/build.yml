@@ -31,14 +31,14 @@ jobs:
       - name: Build the site
         run: emacs -Q --script org-publish.el
 
-      - name: Copy main.css and rss.xml to the ~public~ folder
-        run: cp -R ./src/css/ ./src/rss.xml ./public
+#      - name: Copy main.css and rss.xml to the ~public~ folder
+#        run: cp -R ./src/css/ ./src/rss.xml ./public
 
-      - name: Commit timestamps changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Automatic commit
-          file_pattern: 'public/timestamps/*'
+#      - name: Commit timestamps changes
+#        uses: stefanzweifel/git-auto-commit-action@v4
+#        with:
+#          commit_message: Automatic commit
+#          file_pattern: 'public/timestamps/*'
 
       - name: Publish generated content to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
