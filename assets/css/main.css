@@ -1,0 +1,64 @@
+/* HTML and body */
+body {
+   display: block;
+   padding: 3em;
+}
+
+/* Links colour */
+a {
+  background-color: PaleTurquoise;
+  color: Black;
+}
+
+/* Makes links change colour when the mouse hovers over */
+a:hover {
+  background-color: Black;
+  color: PaleTurquoise;
+}
+
+/* Source code */
+pre {
+  color: DarkSlateGrey;
+  background-color: WhiteSmoke;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+/* Code blocks */
+code {
+  color: red;
+  font-weight: bold;
+  overflow-wrap: auto;
+}
+
+/* These classes are exported from the almighty Emacs (I've changed the colors). */
+/* Emacs saved my life here as it has automatically generated everything for me. */
+span.default {
+  color: Grey;
+}
+
+span.keyword {
+  color: DodgerBlue;
+}
+
+span.function-name {
+  color: LightSlateGray;
+}
+
+span.type {
+  color: Brown;
+}
+
+span.string {
+  color: DarkCyan;
+}
+
+span.preprocessor {
+  color: FireBrick;
+}
+
+span.comment, span.comment-delimiter {
+  color: Salmon;
+}
