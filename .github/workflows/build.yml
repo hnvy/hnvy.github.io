@@ -1,4 +1,4 @@
-name: Publish to GitHub Pages
+name: Rebuild the site
 # Most of this code is from System Crafters.
 # You can find the original at: https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/
 # To allow a specific external action to be run, you need
