@@ -6,9 +6,9 @@
 ;; Load the publishing system
 (require 'ox-publish)
 
-(setq org-publish-use-timestamps-flag t)
-(setq org-publish-cache t)
-(setq org-publish-timestamp-directory "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/")
+;; (setq org-publish-use-timestamps-flag t)
+;; (setq org-publish-cache t)
+;; (setq org-publish-timestamp-directory "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/")
 
 ;; Customize the HTML output
 (setq org-html-validation-link nil
@@ -16,7 +16,7 @@
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
       org-export-with-sub-superscripts nil
-      org-html-head "<link rel=\"stylesheet\" href=\"https://hnvy.github.io/css/main.css\" />")
+      org-html-head "<link rel=\"stylesheet\" href=\"https://hnvy.github.io/assets/css/main.css\" />")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
