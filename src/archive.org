@@ -7,7 +7,7 @@
 </pre>
 #+END_EXPORT
 
-[[https://hnvy.github.io/][Main directory]] - [[https://github.com/hnvy/hnvy.github.io/edit/main/src/archive.org][ESotP]]
+[[file:./index.org][Main directory]] - [[https://github.com/hnvy/hnvy.github.io/edit/main/src/archive.org][ESotP]]
 
 -----
 
