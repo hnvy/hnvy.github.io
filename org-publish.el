@@ -23,7 +23,7 @@
       (list
        (list "hnvy"
              :recursive t
-             :base-directory "./src2"
+             :base-directory "./copy/src" ;; Make sure that this says ~./copy/src~
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
              :with-creator t

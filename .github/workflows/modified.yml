@@ -1,4 +1,4 @@
-name: Publish modified content to GitHub Pages
+name: Publish to GitHub Pages
 
 on:
   push:
@@ -14,10 +14,13 @@ jobs:
         with:
           fetch-depth: 0 # fetch 0 commits
 
-      - name: src2 creation and copying
+      # The following will create this folder structure: ./copy/src
+      # The folder structure above will simulate the current working directory.
+      # This will allow us to publish the files to the correct folders (via ~xargs -I{} cp --parents {} ./copy/~).
+      - name: ./copy/src creation and copying
         run: |
-          mkdir src2
-          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -I{} cp {} ./src2/
+          mkdir -p copy/src
+          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -I{} cp --parents {} ./copy/
 
       - name: Install Emacs
         run: sudo add-apt-repository ppa:kelleyk/emacs && sudo apt-get update && sudo apt install emacs28-nox
