@@ -6,7 +6,7 @@
 </pre>
 #+END_EXPORT
 
-[[https://hnvy.github.io/about.html][About]] - [[https://hnvy.github.io/archive.html][Archive]] - [[https://hnvy.github.io/rss.xml][RSS feed]]
+[[https://hnvy.github.io/about.html][About]] - [[https://hnvy.github.io/rss.xml][RSS feed]]
 
 [[https://github.com/hnvy/hnvy.github.io/edit/main/src/index.org][ESotP]]
 
