@@ -26,6 +26,8 @@ jobs:
         run: sudo apt-get install emacs
        # Below, was the previous way of doing things (because ~apt-get install emacs~ used to give issues)
        # run: sudo add-apt-repository ppa:kelleyk/emacs && sudo apt-get update && sudo apt install emacs28-nox
+
+       # We did not use this in the old way
        # uses: purcell/setup-emacs@master
        # with:
        #   version: 27.2
