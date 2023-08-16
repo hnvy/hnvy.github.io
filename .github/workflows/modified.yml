@@ -26,8 +26,8 @@ jobs:
         # with Org Publish when exporting header IDs (Org will continue using its automatically generated IDs)
       - name: Install Emacs
         run: sudo apt-get install emacs
+       # Alternatively, you can run the following command: sudo add-apt-repository ppa:ubuntu-elisp/ppa && sudo apt update && sudo apt-get install emacs-snapshot 
        # Below, was the previous way of doing things (because ~apt-get install emacs~ used to give issues)
-       # Alternatively, you can run the following command: sudo add-apt-repository ppa:ubuntu-elisp/ppa && sudo apt update && sudo apt-get install emacs-snapshot
        # run: sudo add-apt-repository ppa:kelleyk/emacs && sudo apt-get update && sudo apt install emacs28-nox
 
        # We did not use this in the old way
